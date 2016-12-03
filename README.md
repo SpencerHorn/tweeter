@@ -19,6 +19,11 @@ To get started with the app, clone the repo and then install the needed gems:
 $ bundle install
 ```
 
+This app uses Postgresql locally as well as in "Production"
+
+```
+$ rails db:create
+```
 Next, migrate the database:
 
 ```
